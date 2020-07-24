@@ -33,7 +33,7 @@ namespace EchoBot1.Bots
 
         protected override async Task OnMembersAddedAsync(IList<ChannelAccount> membersAdded, ITurnContext<IConversationUpdateActivity> turnContext, CancellationToken cancellationToken)
         {
-            var welcomeText = "¾È³çÇÏ¼¼¿ä, Çö¸íÇÑÁı»çÆÀ ÀÔ´Ï´Ù. ¿ì¸®´Â ¹İ·Áµ¿¹°ÀÇ Á¾ÇÕ¼­ºñ½º¸¦ À§ÇØ µ¿¹°º´¿ø ¿¹¾à, °£½Ä±¸¸Å ±â´ÉÀ» ¸¸µé°í ÀÖ½À´Ï´Ù.";
+            var welcomeText = "ì•ˆë…•í•˜ì„¸ìš”, í˜„ëª…í•œì§‘ì‚¬íŒ€ ì…ë‹ˆë‹¤. ìš°ë¦¬ëŠ” ë°˜ë ¤ë™ë¬¼ì˜ ì¢…í•©ì„œë¹„ìŠ¤ë¥¼ ìœ„í•œ ë™ë¬¼ë³‘ì› ì˜ˆì•½, ê°„ì‹êµ¬ë§¤ ê¸°ëŠ¥ê³¼ ë°˜ë ¤ë™ë¬¼ì˜ í–‰ë³µë„ë¥¼ ë†’ì´ê¸° ìœ„í•´ ì£¼ì¸ì´ ì•Œì•„ì•¼í•  ì •ë³´ë¥¼ ì œê³µí•˜ëŠ” ê¸°ëŠ¥ì„ ë§Œë“¤ê³  ìˆìŠµë‹ˆë‹¤.";
             foreach (var member in membersAdded)
             {
                 if (member.Id != turnContext.Activity.Recipient.Id)
