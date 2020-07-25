@@ -46,6 +46,10 @@
 - **텔레그램 봇 추가방법**
     - 텔레그램에 watchdog01_bot 검색 후 Watchdog 봇 추가
 
+# 프로젝트 구동방법
+---
+- 본 프로젝트를 구동하기 위하여 위의 시스템 구성도 과정을 순서대로 거쳐야 합니다. Bot Framework 기반 전체 소스코드는 "핵심코드 - 프로젝트 전체코드.zip" 의 압축을 풀어서 EchoBot1.sln을 실행 후 확인할 수 있습니다. 설치해야할 솔루션 패키지는 "Microsoft.AspNetCore.Mvc.NewtonsoftJson", "Microsoft.Bot.Builder.AI.QnA", "Microsoft.Bot.Builder.Integration.AspNet.Core", "Microsoft.Extensions.Configuration", "Microsoft.Extensions.Configuration.Binder", "QnaMaker", "System.Net.Primitives" 입니다.
+
 
 # Teams
 ---
